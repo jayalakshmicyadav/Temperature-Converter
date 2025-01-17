@@ -1,0 +1,42 @@
+def celsius_to_fahrenheit(c):
+    return (c * 9/5) + 32
+
+def celsius_to_kelvin(c):
+    return c + 273.15
+
+def fahrenheit_to_celsius(f):
+    return (f - 32) * 5/9
+
+def fahrenheit_to_kelvin(f):
+    return (f - 32) * 5/9 + 273.15
+
+def kelvin_to_celsius(k):
+    return k - 273.15
+
+def kelvin_to_fahrenheit(k):
+    return (k - 273.15) * 9/5 + 32
+
+def main():
+    print("Temperature Conversion Program")
+    print("Enter the temperature value followed by the unit (C, F, K):")
+
+    try:
+        temp = float(input("Temperature value: "))
+        unit = input("Unit (C, F, K): ").strip().upper()
+
+        if unit == "C":
+            print(f"{temp} \u00b0C = {celsius_to_fahrenheit(temp):.2f} \u00b0F")
+            print(f"{temp} \u00b0C = {celsius_to_kelvin(temp):.2f} K")
+        elif unit == "F":
+            print(f"{temp} \u00b0F = {fahrenheit_to_celsius(temp):.2f} \u00b0C")
+            print(f"{temp} \u00b0F = {fahrenheit_to_kelvin(temp):.2f} K")
+        elif unit == "K":
+            print(f"{temp} K = {kelvin_to_celsius(temp):.2f} \u00b0C")
+            print(f"{temp} K = {kelvin_to_fahrenheit(temp):.2f} \u00b0F")
+        else:
+            print("Invalid unit. Please enter C, F, or K.")
+    except ValueError:
+        print("Invalid input. Please enter a numeric temperature value.")
+
+if __name__ == "__main__":
+    main()
