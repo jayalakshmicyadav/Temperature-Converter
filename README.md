@@ -1,54 +1,66 @@
-# Temperature Conversion Program
+# Temperature Conversion Program with GUI
 
-This project is a Python-based program that converts temperatures between Celsius, Fahrenheit, and Kelvin. The program prompts the user to input a temperature value along with its unit (C, F, or K) and then calculates and displays the equivalent temperatures in the other two units.
+This is a Python application that converts temperatures between Celsius, Fahrenheit, and Kelvin scales. It uses **Tkinter** to provide a user-friendly graphical interface.
 
 ## Features
-- Convert temperature from:
-  - Celsius to Fahrenheit and Kelvin
-  - Fahrenheit to Celsius and Kelvin
-  - Kelvin to Celsius and Fahrenheit
-- Simple user interface via the command line.
-- Input validation to handle invalid inputs gracefully.
-
-## How to Run
-1. Install Python (if not already installed). Download it from [python.org](https://www.python.org/).
-2. Clone this repository or download the `main.py` file.
-3. Open a terminal or command prompt in the folder containing `main.py`.
-4. Run the program using the following command:
-   ```
-   python main.py
-   ```
-5. Follow the on-screen instructions to input the temperature and unit.
-
-## Usage Example
-**Input:**
-```
-Temperature value: 25
-Unit (C, F, K): C
-```
-
-**Output:**
-```
-25 °C = 77.00 °F
-25 °C = 298.15 K
-```
-
-## Conversion Formulas
-- **Celsius to Fahrenheit**: \( F = (C \times \frac{9}{5}) + 32 \)
-- **Celsius to Kelvin**: \( K = C + 273.15 \)
-- **Fahrenheit to Celsius**: \( C = (F - 32) \times \frac{5}{9} \)
-- **Fahrenheit to Kelvin**: \( K = (F - 32) \times \frac{5}{9} + 273.15 \)
-- **Kelvin to Celsius**: \( C = K - 273.15 \)
-- **Kelvin to Fahrenheit**: \( F = (K - 273.15) \times \frac{9}{5} + 32 \)
-
-## Contributing
-Feel free to fork this repository, make improvements, and submit pull requests. Contributions are welcome!
-
-## License
-This project is licensed under the MIT License. You are free to use, modify, and distribute it as needed.
+- Converts temperatures between:
+  - Celsius ↔ Fahrenheit
+  - Celsius ↔ Kelvin
+  - Fahrenheit ↔ Kelvin
+- User-friendly interface with input fields and dropdown menus.
+- Handles invalid inputs with error messages.
 
 ---
 
-### Connect with Me
-If you have any questions or suggestions, feel free to connect with me on LinkedIn. I'd love to hear your feedback and ideas!
+## Installation and Setup
 
+### Prerequisites
+- **Python 3.x** installed on your system.
+- Basic understanding of Python programming.
+
+---
+
+### Setting Up the Project in PyCharm
+
+1. **Download and Install PyCharm**
+   - Go to the [PyCharm website](https://www.jetbrains.com/pycharm/).
+   - Download the **Community Edition** (free) or Professional version.
+   - Install PyCharm by following the setup wizard.
+
+2. **Create a New Project**
+   - Open PyCharm and click on **File > New Project**.
+   - Choose a location for your project and name it (e.g., `Temperature_Converter_GUI`).
+   - Select the Python interpreter and click **Create**.
+
+3. **Add `main.py`**
+   - Inside the project, right-click on the project folder and choose **New > Python File**.
+   - Name the file `main.py` and paste the Tkinter code above.
+
+4. **Run the Program**
+   - Click on **Run > Run...** or press `Shift + F10` to execute the program.
+   - The GUI window will appear.
+
+---
+
+## How to Use
+1. Enter the temperature in the input field.
+2. Select the current unit of the temperature from the dropdown menu (Celsius, Fahrenheit, or Kelvin).
+3. Click the **Convert** button to see the results.
+4. The converted values will appear in the result area.
+
+---
+
+## Screenshots
+_(Include screenshots of your application here.)_
+
+---
+
+## Future Improvements
+- Add more temperature scales (e.g., Rankine).
+- Improve the GUI with additional styling.
+- Add a "Clear" button to reset inputs and results.
+
+---
+
+## License
+This project is licensed under the MIT License.
