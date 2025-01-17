@@ -1,6 +1,6 @@
 # Temperature Conversion Program with GUI
 
-This is a Python application that converts temperatures between Celsius, Fahrenheit, and Kelvin scales. It uses **Tkinter** to provide a user-friendly graphical interface.
+This is a Python Code that converts temperatures between Celsius, Fahrenheit, and Kelvin scales. It uses **Tkinter** to provide a user-friendly graphical interface.
 
 ## Features
 - Converts temperatures between:
