@@ -48,12 +48,7 @@ This is a Python Code that converts temperatures between Celsius, Fahrenheit, an
 3. Click the **Convert** button to see the results.
 4. The converted values will appear in the result area.
 
----
 
-## Screenshots
-_(Include screenshots of your application here.)_
-
----
 
 ## Future Improvements
 - Add more temperature scales (e.g., Rankine).
