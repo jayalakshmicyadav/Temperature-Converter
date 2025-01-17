@@ -55,7 +55,4 @@ This is a Python Code that converts temperatures between Celsius, Fahrenheit, an
 - Improve the GUI with additional styling.
 - Add a "Clear" button to reset inputs and results.
 
----
 
-## License
-This project is licensed under the MIT License.
