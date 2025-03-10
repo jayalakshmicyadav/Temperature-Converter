@@ -50,9 +50,5 @@ This is a Python Code that converts temperatures between Celsius, Fahrenheit, an
 
 
 
-## Future Improvements
-- Add more temperature scales (e.g., Rankine).
-- Improve the GUI with additional styling.
-- Add a "Clear" button to reset inputs and results.
 
 
